@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CustomWebView_Example' do
+  pod 'CustomWebView', :path => '../'
+
+  target 'CustomWebView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

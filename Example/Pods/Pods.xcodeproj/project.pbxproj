@@ -1,0 +1,1605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C7786613480C3B91CDE0D7904A4B2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5654E6876A86442951B7BB96111EA8B /* CoreGraphics.framework */; };
+		057E2B2158993093BE500327C1AE769D /* ShareToWeiChat.m in Sources */ = {isa = PBXBuildFile; fileRef = D164C719E7837C5E4EB2E72181F5BEDA /* ShareToWeiChat.m */; };
+		06C59C194E78E7DF70B3D8C5F8E114F4 /* WXAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7630AC3832F73A797D51C643B802D084 /* WXAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07CFC8D70D8D2716C4F729830C005D20 /* JSExportManager+JSShareExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D55136E580769BD301F8C3133629AE /* JSExportManager+JSShareExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F4C7BB7414CA245CC87734A8A5DBF6 /* ShareToWeChatfriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F06A69692090CA82B962706B190F6BF /* ShareToWeChatfriends.m */; };
+		0BBB485274944158B57827D0353E56EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DB63A574276CFAA7E39E82F712F1B9 /* UIKit.framework */; };
+		1482BDC167892264EBC33D56401B8025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCE33B0FB019D73B3C0505F8209812B /* Foundation.framework */; };
+		166A356472501862806922A4783370F6 /* Pods-CustomWebView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B124C59EF77346DE29E95F279DDC48AF /* Pods-CustomWebView_Tests-dummy.m */; };
+		1A6487ED5B2BE813D47D0B0DABB6E3CB /* CustomWebView-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4C28CE4B18E7CE2E5129EA468931F1 /* CustomWebView-iOS8.3-dummy.m */; };
+		1CE4DD31CE2E0B7E9ABA787CA534CC07 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E771EDF87B0A185387821080C3DAC64 /* AVFoundation.framework */; };
+		20DA1114CE3176C97842A9AF74185B28 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F370B4647D92F4F5F0B7B0B92E2A532 /* SystemConfiguration.framework */; };
+		22760320220260F244536396DDD2E021 /* XTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C7AE4371ACDB9FF254D7BB3F59C8D8 /* XTWebViewController.m */; };
+		24DBB772B0C6DB7749196106A4773010 /* weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B2A193A3B2A3290171CF6D51CA2363 /* weixin@2x.png */; };
+		282C3F2C969F9C04F53F5263BAA0C596 /* ShareToWeChatfriends.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD4BC20754B9BFCD877529404CEF7B2 /* ShareToWeChatfriends.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B9EF4EDB2E9370CF9D615C42D1CC219 /* XTWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD461237DF629D4E870B8791E76F9D4 /* XTWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0E9265CF16CD2456477477F4E3103B /* ShareToQQZone.h in Headers */ = {isa = PBXBuildFile; fileRef = B89DBEE14818F173E8614F04265DDCD1 /* ShareToQQZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD9DCBC5F974E1C7DDD7FBF6FEDCCA0 /* WechatPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3AF5A264F1D3D37D6A70E74338C8C2 /* WechatPay.m */; };
+		34B0A6B4C426FCD59C15F1212D5B9B79 /* pengyouquan.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B3C9E24016E2E7BCA71FC1AA920B01 /* pengyouquan.png */; };
+		38F54098BC08517FDCB9199DB1B299F6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C523EE11C9E3E36329DFD587394FDF9C /* JavaScriptCore.framework */; };
+		3A9BA0D2F664F378B1791158AD29F6B9 /* ShareToQQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 11629FE43DA33E70D70A0C910BF6920F /* ShareToQQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C7D6DFD4CC9735F78E5524F64C518CE /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D95DDF08DE810522462A76E22C93228 /* NextViewController.m */; };
+		3DBEAAEAFD9D3BAF9766518B40E24618 /* ShareToWeChatfriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F06A69692090CA82B962706B190F6BF /* ShareToWeChatfriends.m */; };
+		3E2E96C0BCEE67CAD68689FD3FAEA6DB /* XTWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD461237DF629D4E870B8791E76F9D4 /* XTWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E4B714F726E24F8D40D3E2EF9B87DA6 /* JSExportManager+JSShareExport.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B08D2B2B7E9012A246A7923E7EDC0 /* JSExportManager+JSShareExport.m */; };
+		41FF1D80F03AA1042DE15C02F0E32F6A /* JSExportManager+JSPayExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B09F9C90699736E58E6B5B6A3692F3 /* JSExportManager+JSPayExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C7787100D5788D6D22F47DE753FD99 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D95DDF08DE810522462A76E22C93228 /* NextViewController.m */; };
+		49B50B0E324D9C13B8B738BE4C8CBE93 /* JSExportManager+JSPayExport.m in Sources */ = {isa = PBXBuildFile; fileRef = DE89BB9870BC17ACC3DD20370167D7E1 /* JSExportManager+JSPayExport.m */; };
+		5247903CF98C3C2FF37960B8D3A56BC0 /* NextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CED67530DAE7966919256FDB506ECB55 /* NextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527E9958C0D5CF46EF733E295BB31E34 /* weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = F136A1EFF67C524DB0C742167193414E /* weixin.png */; };
+		55164F99B2562307BD9B0E009CBC5B41 /* ShareToQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE360F15D7BB66A56978E24C352209F /* ShareToQQ.m */; };
+		557AB058D3396736587E08EA9FCD1FDB /* ShareToWeiChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FDDEDEFAF0B059C1F2BF8917990465 /* ShareToWeiChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5855929C9134B0DCA137D6E4B7AFFAA9 /* Pods-CustomWebView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4D9A368BE4603A87F69C76E424C2E7 /* Pods-CustomWebView_Example-dummy.m */; };
+		588605519CACB5A1DE310A0229961B02 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C523EE11C9E3E36329DFD587394FDF9C /* JavaScriptCore.framework */; };
+		5898BF3FE92CD4375712B087BF45CD00 /* WechatPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C567B1F8E52077E3093314DEEB5375 /* WechatPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D1178B3DD7E690C543526FCD2DF9967 /* Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E6DB62B8B851D3128C6D1E3EA1F50 /* Alipay.m */; };
+		5D9861F7C9703C7F8C6A808E2F006239 /* MBProgressHUD-iOS7.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 583E80F6716B513D68A83CABFF92C747 /* MBProgressHUD-iOS7.0-dummy.m */; };
+		60E4A991F11DE50A6570BCEB304E0A38 /* XTWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 560A0A261FA8CCCC76E0D43E6F7CB39B /* XTWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632CF11750773CA0534A002F23D2BD58 /* ShareToWeiChat.m in Sources */ = {isa = PBXBuildFile; fileRef = D164C719E7837C5E4EB2E72181F5BEDA /* ShareToWeiChat.m */; };
+		6D9DABE9503912CDA712813DFDE9E14F /* JSExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1AE56683413FE5FF52B3445722645 /* JSExportManager.m */; };
+		6DCC3F8D27EFF47B897A38229E5DBE3C /* JSExportManager+JSShareExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D55136E580769BD301F8C3133629AE /* JSExportManager+JSShareExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5C7F954717FE1B05969AC319CDFFD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5654E6876A86442951B7BB96111EA8B /* CoreGraphics.framework */; };
+		72FBE22545DF3E05A90472E285BEF3F1 /* WXAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F1E90C623D8C782A8FA6B58E7B060 /* WXAPIManager.m */; };
+		73A96EC794D336B378616C895D80A157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCE33B0FB019D73B3C0505F8209812B /* Foundation.framework */; };
+		7418933A9FB7C2DFC3744106A39C3464 /* JSExportManager+JSPayExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B09F9C90699736E58E6B5B6A3692F3 /* JSExportManager+JSPayExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A0B8E92B308F302198DD5A296725EF2 /* WechatPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3AF5A264F1D3D37D6A70E74338C8C2 /* WechatPay.m */; };
+		7E3A3A57645FB40729C449D028EBBA5A /* JSExportManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D657AAF2190FE0525FBB8E5AA5ABDB /* JSExportManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B986A44504C90EEDA1B9AB82A652314 /* XTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79525B3172CA17EA6A8C448A515E1197 /* XTWebView.m */; };
+		8BBB0BD92737410E5E955CC2396E3159 /* JSExportsManager+platformAndVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 560930E161AC9FE6A8CAC27B0ABAF780 /* JSExportsManager+platformAndVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9354327944EF969291E7D69E425B863F /* JSExportManager+JSOpenNewWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5447B48EFBE8E83359CEEC2891E280BB /* JSExportManager+JSOpenNewWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9480B7119789CD2E5E833C6BB08C6BD9 /* JSExportsManager+platformAndVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 434F46D0AB9108D9358394CB6FA6EAE0 /* JSExportsManager+platformAndVersion.m */; };
+		996BECC3E62289B60DB90086AACDFF2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCE33B0FB019D73B3C0505F8209812B /* Foundation.framework */; };
+		9DB9C07305A77D83DF2F44735F8F33AB /* WechatPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C567B1F8E52077E3093314DEEB5375 /* WechatPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC7C04284DCE8C927D45DCB7260AEBB /* ShareToQQZone.m in Sources */ = {isa = PBXBuildFile; fileRef = AB216607640779E19BEC29C70F6C5CAA /* ShareToQQZone.m */; };
+		A17E2E18872A8EC72967F9213A532ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCE33B0FB019D73B3C0505F8209812B /* Foundation.framework */; };
+		A3C8026ED088499531FDB0AFB9D44F71 /* CustomWebView-iOS7.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1794BD39CE301226CC8B290DAF07EB71 /* CustomWebView-iOS7.0-dummy.m */; };
+		A53D89C638468C2917DB717E34509D86 /* JSExportManager+JSPayExport.m in Sources */ = {isa = PBXBuildFile; fileRef = DE89BB9870BC17ACC3DD20370167D7E1 /* JSExportManager+JSPayExport.m */; };
+		A5F16E28F2F0573D817D423297FB6E26 /* pengyouquan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9D358E13B96FE003F6139AD854442 /* pengyouquan@2x.png */; };
+		A61FB04621513ACEB01A45CB25E9D23E /* pengyouquan.png in Resources */ = {isa = PBXBuildFile; fileRef = 51B3C9E24016E2E7BCA71FC1AA920B01 /* pengyouquan.png */; };
+		A70CFF688B1F4A58C6F6AD3BEF673262 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCE33B0FB019D73B3C0505F8209812B /* Foundation.framework */; };
+		AB6695E9E161B5E608547022B19658B7 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 17702362D8EC7514874729264F3D0088 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB24934FD11BC9D7BEE296A97A39D34 /* XTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C7AE4371ACDB9FF254D7BB3F59C8D8 /* XTWebViewController.m */; };
+		AE376819100EC626F1DF090474C7665B /* ShareToQQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 11629FE43DA33E70D70A0C910BF6920F /* ShareToQQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2F68474FE62796730E7DAF8D5124B7E /* WXAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7630AC3832F73A797D51C643B802D084 /* WXAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA1388B031AA4A2133FD0B87CF2619C2 /* weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B2A193A3B2A3290171CF6D51CA2363 /* weixin@2x.png */; };
+		BA864393615A0D98FABA453575E4BB3A /* ShareToWeChatfriends.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD4BC20754B9BFCD877529404CEF7B2 /* ShareToWeChatfriends.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BABE28623AE7180E1101BB553FE7621A /* Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8E6DB62B8B851D3128C6D1E3EA1F50 /* Alipay.m */; };
+		BB989B21EA98517429EB2C5194E0EE3C /* XTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79525B3172CA17EA6A8C448A515E1197 /* XTWebView.m */; };
+		BBA3E506F8C0B5E1FDD3D8C443F2280A /* qqZone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02620DFBD88F01ECE446A6E17EBEEA7E /* qqZone@2x.png */; };
+		C222F70F2CFC530DCF299721B204C736 /* ShareToQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE360F15D7BB66A56978E24C352209F /* ShareToQQ.m */; };
+		C3A621A870D3167613E1B6465F0A1CA0 /* weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = F136A1EFF67C524DB0C742167193414E /* weixin.png */; };
+		C5E2DDAD403A15760D6032188F2B8DFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCE33B0FB019D73B3C0505F8209812B /* Foundation.framework */; };
+		C71DEEA5AD93AE74F7073D1F545A639C /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 17702362D8EC7514874729264F3D0088 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C861BAAB3A2AE623F3968383A94A7508 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B4966E5B2A07302C640950FF3E8B125E /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8ACC311F9A24C9B5F2C8AC5D2725F13 /* NextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CED67530DAE7966919256FDB506ECB55 /* NextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8C1D1D493D8BB1B9D245951C1FE989E /* qqicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 967BE9B466A12A866ED3AE837ADBE057 /* qqicon@2x.png */; };
+		C90C724F6C8D176AE682A1C58D432A45 /* XTWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 560A0A261FA8CCCC76E0D43E6F7CB39B /* XTWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C99B7FCA7CFC6F7A836B19E59413FB38 /* ShareToWeiChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FDDEDEFAF0B059C1F2BF8917990465 /* ShareToWeiChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE232C804F10E3E47A736A09B62D923A /* JSExportManager+JSOpenNewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A378F234AD4D1E9C87C5060F2DF8175 /* JSExportManager+JSOpenNewWindow.m */; };
+		CE84D7987DADD64AAA16E9E9742A2FFB /* ShareToQQZone.h in Headers */ = {isa = PBXBuildFile; fileRef = B89DBEE14818F173E8614F04265DDCD1 /* ShareToQQZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D27A93F9221F7BAFC0D1FA596C2261 /* pengyouquan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E9D358E13B96FE003F6139AD854442 /* pengyouquan@2x.png */; };
+		D2CB651520F8A5E50623D05F04846545 /* JSExportsManager+platformAndVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 560930E161AC9FE6A8CAC27B0ABAF780 /* JSExportsManager+platformAndVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3F34ACE40E67CFF8595FF108BB85262 /* ShareToQQZone.m in Sources */ = {isa = PBXBuildFile; fileRef = AB216607640779E19BEC29C70F6C5CAA /* ShareToQQZone.m */; };
+		D4ACB66C7FC479B11D8FB1F3A49CF89E /* MBProgressHUD-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A01BFBB64DFCF486775298B004A23E78 /* MBProgressHUD-iOS8.3-dummy.m */; };
+		DED4D9259D27D4672491C53B361A6B68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8DB63A574276CFAA7E39E82F712F1B9 /* UIKit.framework */; };
+		DEEB42A760AFCDDA3F3723C2A847A5A5 /* qqicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 967BE9B466A12A866ED3AE837ADBE057 /* qqicon@2x.png */; };
+		E0F484A9FE1E7AFAAB1942AEA880F25A /* JSExportManager+JSShareExport.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B08D2B2B7E9012A246A7923E7EDC0 /* JSExportManager+JSShareExport.m */; };
+		E1772D4A515FDFBABB80F406DDB19667 /* Alipay.h in Headers */ = {isa = PBXBuildFile; fileRef = FB01E4042BB7BD129B0615D77B1353D3 /* Alipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E19EDAC557BDCA9492E318B91F08774E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B4966E5B2A07302C640950FF3E8B125E /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5DF7CC0988A8E56665FE069101DC9A0 /* JSExportManager+JSOpenNewWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 5447B48EFBE8E83359CEEC2891E280BB /* JSExportManager+JSOpenNewWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E916C89565727D693178CC36F7EEDAF2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E771EDF87B0A185387821080C3DAC64 /* AVFoundation.framework */; };
+		EF4018D8124DBD33F8A30CA4C64EC8BA /* JSExportManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D657AAF2190FE0525FBB8E5AA5ABDB /* JSExportManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFC1F8C46382A04992087D54030CC449 /* JSExportsManager+platformAndVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 434F46D0AB9108D9358394CB6FA6EAE0 /* JSExportsManager+platformAndVersion.m */; };
+		F335C247296B306F5DA36B8E3C12A3A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F370B4647D92F4F5F0B7B0B92E2A532 /* SystemConfiguration.framework */; };
+		F3AC040EFE7D026BB9E63E483E5A371C /* Alipay.h in Headers */ = {isa = PBXBuildFile; fileRef = FB01E4042BB7BD129B0615D77B1353D3 /* Alipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F415169A6001E5574130471517ADBEB5 /* qqZone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02620DFBD88F01ECE446A6E17EBEEA7E /* qqZone@2x.png */; };
+		F6E3F8433A7ADBC0EE12EB7C0F358CA1 /* JSExportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F1AE56683413FE5FF52B3445722645 /* JSExportManager.m */; };
+		FA596C923028394D955CB5A7CE6E295F /* WXAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F1E90C623D8C782A8FA6B58E7B060 /* WXAPIManager.m */; };
+		FB18DA19D11FDEACE173ACD328E72969 /* JSExportManager+JSOpenNewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A378F234AD4D1E9C87C5060F2DF8175 /* JSExportManager+JSOpenNewWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7178B212EFBBB016943EE981E992F8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71694AAE3E18E5EA8F740A59B1CAAF03;
+			remoteInfo = "CustomWebView-iOS7.0-CustomWebView";
+		};
+		7DE001C27709F27209FCB072CFA41F9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A72FC2EDBE0B0BB985D6AE66E1CF6CF;
+			remoteInfo = "MBProgressHUD-iOS7.0";
+		};
+		A5B37A55F32BFAF5461ED123AC18A56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F7BAF5119B9BBFE7A5C004A3D7D324;
+			remoteInfo = "CustomWebView-iOS8.3";
+		};
+		AC64F5AF85D34A7BD4F957D08F6C0C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE53259E2B94890799872446AB7760F;
+			remoteInfo = "CustomWebView-iOS8.3-CustomWebView";
+		};
+		B7F2390EC08F990518993477D8C43DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D1F430BAC15DE2649460BAA7A93F98;
+			remoteInfo = "CustomWebView-iOS7.0";
+		};
+		D8A0810020FC062D06E7888637BC433D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83FB33F052194CA09A573C5F7D977DF1;
+			remoteInfo = "MBProgressHUD-iOS8.3";
+		};
+		EF9135A66970B119EBEB75B98F6A16AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A72FC2EDBE0B0BB985D6AE66E1CF6CF;
+			remoteInfo = "MBProgressHUD-iOS7.0";
+		};
+		FD986D30441300DCF62ED304961D044A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A72FC2EDBE0B0BB985D6AE66E1CF6CF;
+			remoteInfo = "MBProgressHUD-iOS7.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02620DFBD88F01ECE446A6E17EBEEA7E /* qqZone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "qqZone@2x.png"; sourceTree = "<group>"; };
+		0579331A843E4CDC40CB2B1F2C54F9BA /* libMBProgressHUD-iOS8.3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMBProgressHUD-iOS8.3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06EC8BA2D770A221FA1143956E7E62B0 /* CustomWebView-iOS7.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomWebView-iOS7.0-prefix.pch"; sourceTree = "<group>"; };
+		0E0F1E90C623D8C782A8FA6B58E7B060 /* WXAPIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXAPIManager.m; sourceTree = "<group>"; };
+		11629FE43DA33E70D70A0C910BF6920F /* ShareToQQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareToQQ.h; sourceTree = "<group>"; };
+		166D7594C85E04A94A154B0AAAF00638 /* MBProgressHUD-iOS7.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-iOS7.0-prefix.pch"; sourceTree = "<group>"; };
+		17702362D8EC7514874729264F3D0088 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1794BD39CE301226CC8B290DAF07EB71 /* CustomWebView-iOS7.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomWebView-iOS7.0-dummy.m"; sourceTree = "<group>"; };
+		1CBC99805F4381AE84BE16BBF076B0AB /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = SDK1.6.2/libWeChatSDK.a; sourceTree = "<group>"; };
+		1E4C28CE4B18E7CE2E5129EA468931F1 /* CustomWebView-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CustomWebView-iOS8.3-dummy.m"; path = "../CustomWebView-iOS8.3/CustomWebView-iOS8.3-dummy.m"; sourceTree = "<group>"; };
+		200655F6433721E1AAF2D0E54000F14D /* Pods-CustomWebView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomWebView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		246287387D3FF66D9C8C786A53DC2613 /* libCustomWebView-iOS7.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCustomWebView-iOS7.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28697896234CFFD5C33B086880340B8C /* CustomWebView-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CustomWebView-iOS8.3.xcconfig"; path = "../CustomWebView-iOS8.3/CustomWebView-iOS8.3.xcconfig"; sourceTree = "<group>"; };
+		2975522CF07D9703F231B1939457807B /* CustomWebView-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CustomWebView-iOS8.3-prefix.pch"; path = "../CustomWebView-iOS8.3/CustomWebView-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
+		29B09F9C90699736E58E6B5B6A3692F3 /* JSExportManager+JSPayExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSExportManager+JSPayExport.h"; sourceTree = "<group>"; };
+		2D95DDF08DE810522462A76E22C93228 /* NextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		2F06A69692090CA82B962706B190F6BF /* ShareToWeChatfriends.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareToWeChatfriends.m; sourceTree = "<group>"; };
+		31D55136E580769BD301F8C3133629AE /* JSExportManager+JSShareExport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSExportManager+JSShareExport.h"; sourceTree = "<group>"; };
+		36D18D5FB4922DE1E09445AD2F11DFC8 /* ResourceBundle-CustomWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-CustomWebView-Info.plist"; path = "../CustomWebView-iOS8.3/ResourceBundle-CustomWebView-Info.plist"; sourceTree = "<group>"; };
+		3BCE33B0FB019D73B3C0505F8209812B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		434F46D0AB9108D9358394CB6FA6EAE0 /* JSExportsManager+platformAndVersion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSExportsManager+platformAndVersion.m"; sourceTree = "<group>"; };
+		44C567B1F8E52077E3093314DEEB5375 /* WechatPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatPay.h; sourceTree = "<group>"; };
+		49A57F97E513FB9566F53DA28E3F6999 /* libMBProgressHUD-iOS7.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMBProgressHUD-iOS7.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F370B4647D92F4F5F0B7B0B92E2A532 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		51B3C9E24016E2E7BCA71FC1AA920B01 /* pengyouquan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = pengyouquan.png; sourceTree = "<group>"; };
+		5447B48EFBE8E83359CEEC2891E280BB /* JSExportManager+JSOpenNewWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSExportManager+JSOpenNewWindow.h"; sourceTree = "<group>"; };
+		560930E161AC9FE6A8CAC27B0ABAF780 /* JSExportsManager+platformAndVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSExportsManager+platformAndVersion.h"; sourceTree = "<group>"; };
+		560A0A261FA8CCCC76E0D43E6F7CB39B /* XTWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTWebViewController.h; sourceTree = "<group>"; };
+		5738C210246B9E2270D99F071D383BFA /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = Basic/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		583E80F6716B513D68A83CABFF92C747 /* MBProgressHUD-iOS7.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-iOS7.0-dummy.m"; sourceTree = "<group>"; };
+		591DE7B3C8AA6FBE76C1FA1EB9436757 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuth.h; path = Basic/TencentOpenAPI.framework/Headers/TencentOAuth.h; sourceTree = "<group>"; };
+		5E3AF5A264F1D3D37D6A70E74338C8C2 /* WechatPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WechatPay.m; sourceTree = "<group>"; };
+		60C6C4DABA9019C8C45796091AC47F11 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		618818633145D163B9D0E6C0E0570F54 /* ResourceBundle-CustomWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CustomWebView-Info.plist"; sourceTree = "<group>"; };
+		6A378F234AD4D1E9C87C5060F2DF8175 /* JSExportManager+JSOpenNewWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSExportManager+JSOpenNewWindow.m"; sourceTree = "<group>"; };
+		6FD461237DF629D4E870B8791E76F9D4 /* XTWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTWebView.h; sourceTree = "<group>"; };
+		6FD4902200D2301F731DDD200479698A /* Pods-CustomWebView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomWebView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		735127F130C43468FB5A0A7577B31456 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		7474E19BC051B71C56F1DEEE387EA541 /* MBProgressHUD-iOS7.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-iOS7.0.xcconfig"; sourceTree = "<group>"; };
+		74EF1D895E9B5C47FE65353E9B4E5EFF /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdkdef.h; path = Basic/TencentOpenAPI.framework/Headers/sdkdef.h; sourceTree = "<group>"; };
+		7630AC3832F73A797D51C643B802D084 /* WXAPIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXAPIManager.h; sourceTree = "<group>"; };
+		79525B3172CA17EA6A8C448A515E1197 /* XTWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XTWebView.m; sourceTree = "<group>"; };
+		7E771EDF87B0A185387821080C3DAC64 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		84FDDEDEFAF0B059C1F2BF8917990465 /* ShareToWeiChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareToWeiChat.h; sourceTree = "<group>"; };
+		87E9D358E13B96FE003F6139AD854442 /* pengyouquan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "pengyouquan@2x.png"; sourceTree = "<group>"; };
+		8912456D507911489F42935B1227C02A /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterfaceObject.h; path = Basic/TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		8AD6791019C37625526747FA5D9FB0F1 /* MBProgressHUD-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD-iOS8.3-prefix.pch"; path = "../MBProgressHUD-iOS8.3/MBProgressHUD-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
+		8CD4BC20754B9BFCD877529404CEF7B2 /* ShareToWeChatfriends.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareToWeChatfriends.h; sourceTree = "<group>"; };
+		8DE360F15D7BB66A56978E24C352209F /* ShareToQQ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareToQQ.m; sourceTree = "<group>"; };
+		90EED78F8078AA74616E904400853A7B /* MBProgressHUD-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MBProgressHUD-iOS8.3.xcconfig"; path = "../MBProgressHUD-iOS8.3/MBProgressHUD-iOS8.3.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		967BE9B466A12A866ED3AE837ADBE057 /* qqicon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "qqicon@2x.png"; sourceTree = "<group>"; };
+		99F67F5A9712B145B540ED6F98249A55 /* Pods-CustomWebView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomWebView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A9EF254C12B8BFB0B4AF345EC5DF3E9 /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterface.h; path = Basic/TencentOpenAPI.framework/Headers/QQApiInterface.h; sourceTree = "<group>"; };
+		9B23DC097B51FFA58E45D902652D6E50 /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuthObject.h; path = Basic/TencentOpenAPI.framework/Headers/TencentOAuthObject.h; sourceTree = "<group>"; };
+		A01BFBB64DFCF486775298B004A23E78 /* MBProgressHUD-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD-iOS8.3-dummy.m"; path = "../MBProgressHUD-iOS8.3/MBProgressHUD-iOS8.3-dummy.m"; sourceTree = "<group>"; };
+		A5B2A193A3B2A3290171CF6D51CA2363 /* weixin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "weixin@2x.png"; sourceTree = "<group>"; };
+		A5C7AE4371ACDB9FF254D7BB3F59C8D8 /* XTWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XTWebViewController.m; sourceTree = "<group>"; };
+		A6395D85DD8FCA7305C278BC01AF1249 /* Pods-CustomWebView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomWebView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7F1AE56683413FE5FF52B3445722645 /* JSExportManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JSExportManager.m; sourceTree = "<group>"; };
+		AA5B08D2B2B7E9012A246A7923E7EDC0 /* JSExportManager+JSShareExport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSExportManager+JSShareExport.m"; sourceTree = "<group>"; };
+		AA8E6DB62B8B851D3128C6D1E3EA1F50 /* Alipay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Alipay.m; sourceTree = "<group>"; };
+		AB216607640779E19BEC29C70F6C5CAA /* ShareToQQZone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareToQQZone.m; sourceTree = "<group>"; };
+		AC55D9B0FFC451BAFD7948E4CBA8625E /* libPods-CustomWebView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomWebView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B124C59EF77346DE29E95F279DDC48AF /* Pods-CustomWebView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomWebView_Tests-dummy.m"; sourceTree = "<group>"; };
+		B4966E5B2A07302C640950FF3E8B125E /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B778F00721CE17E4D70E6B2056BFD6D1 /* CustomWebView-iOS7.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CustomWebView-iOS7.0.xcconfig"; sourceTree = "<group>"; };
+		B89DBEE14818F173E8614F04265DDCD1 /* ShareToQQZone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareToQQZone.h; sourceTree = "<group>"; };
+		C0D657AAF2190FE0525FBB8E5AA5ABDB /* JSExportManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JSExportManager.h; sourceTree = "<group>"; };
+		C1CFFD1DBC51D41CFC2AB502CCCF6AF2 /* Pods-CustomWebView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomWebView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C50E37267D17FDF34F27BA8A65F9126B /* Pods-CustomWebView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomWebView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C523EE11C9E3E36329DFD587394FDF9C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		C654F2DC682C996E000D2EF3C13A1F52 /* Pods-CustomWebView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomWebView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C8DB63A574276CFAA7E39E82F712F1B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB65101026A68BA364D1E81047325681 /* Pods-CustomWebView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomWebView_Example-resources.sh"; sourceTree = "<group>"; };
+		CC3395F7BA40FFB179900A02ED5B1E52 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = SDK1.6.2/WXApi.h; sourceTree = "<group>"; };
+		CED67530DAE7966919256FDB506ECB55 /* NextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		D0538478B6C7ED713094F602A03275CD /* Pods-CustomWebView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CustomWebView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D164C719E7837C5E4EB2E72181F5BEDA /* ShareToWeiChat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareToWeiChat.m; sourceTree = "<group>"; };
+		D5654E6876A86442951B7BB96111EA8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		DBC55E1E7EFBFD99CB07832F1949EF86 /* libPods-CustomWebView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomWebView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC748D5DDD7DC8D704FC7CEDB8C77C00 /* Pods-CustomWebView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CustomWebView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE89BB9870BC17ACC3DD20370167D7E1 /* JSExportManager+JSPayExport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSExportManager+JSPayExport.m"; sourceTree = "<group>"; };
+		E3AD877B3A3286AE7956D4B2FA3526D4 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = SDK1.6.2/WXApiObject.h; sourceTree = "<group>"; };
+		E436C67487484583C2AEC6F9CBBCE962 /* Pods-CustomWebView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomWebView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E449B0044ADCAE8ED99142F9CCD8A96A /* Pods-CustomWebView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CustomWebView_Tests-resources.sh"; sourceTree = "<group>"; };
+		F1303360C82897E62A832377FA655996 /* CustomWebView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomWebView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F136A1EFF67C524DB0C742167193414E /* weixin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = weixin.png; sourceTree = "<group>"; };
+		F6A426BB13FF4A69D46E9D5FEAEBC3BB /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = SDK1.6.2/WechatAuthSDK.h; sourceTree = "<group>"; };
+		F8FADDF7BD33B4949EB66E8CE458AFE0 /* libCustomWebView-iOS8.3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCustomWebView-iOS8.3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB01E4042BB7BD129B0615D77B1353D3 /* Alipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Alipay.h; sourceTree = "<group>"; };
+		FF4D9A368BE4603A87F69C76E424C2E7 /* Pods-CustomWebView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomWebView_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1825CD99B2248E0C4A9198FD3ECA24C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE4DD31CE2E0B7E9ABA787CA534CC07 /* AVFoundation.framework in Frameworks */,
+				1482BDC167892264EBC33D56401B8025 /* Foundation.framework in Frameworks */,
+				588605519CACB5A1DE310A0229961B02 /* JavaScriptCore.framework in Frameworks */,
+				F335C247296B306F5DA36B8E3C12A3A1 /* SystemConfiguration.framework in Frameworks */,
+				DED4D9259D27D4672491C53B361A6B68 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		455D932E8BE73387C4B018C19B209109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5C7F954717FE1B05969AC319CDFFD0 /* CoreGraphics.framework in Frameworks */,
+				73A96EC794D336B378616C895D80A157 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B7F89615E34950E63210E5C2E30266F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C7786613480C3B91CDE0D7904A4B2C /* CoreGraphics.framework in Frameworks */,
+				C5E2DDAD403A15760D6032188F2B8DFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2A9BD2D21B53FA2BA80547703B35BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17E2E18872A8EC72967F9213A532ACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6C9DB1EFB62DA4B3CE1B47DFBE3690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C599747AC15D0882A19B8230C5723C13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E916C89565727D693178CC36F7EEDAF2 /* AVFoundation.framework in Frameworks */,
+				A70CFF688B1F4A58C6F6AD3BEF673262 /* Foundation.framework in Frameworks */,
+				38F54098BC08517FDCB9199DB1B299F6 /* JavaScriptCore.framework in Frameworks */,
+				20DA1114CE3176C97842A9AF74185B28 /* SystemConfiguration.framework in Frameworks */,
+				0BBB485274944158B57827D0353E56EC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB148D036A6A28154AA8E4BB96EF6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				996BECC3E62289B60DB90086AACDFF2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA76053A596367AD74373118206B531A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E808C4F7839FA36A10CEAB02A6D363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1303360C82897E62A832377FA655996 /* CustomWebView.bundle */,
+				246287387D3FF66D9C8C786A53DC2613 /* libCustomWebView-iOS7.0.a */,
+				F8FADDF7BD33B4949EB66E8CE458AFE0 /* libCustomWebView-iOS8.3.a */,
+				49A57F97E513FB9566F53DA28E3F6999 /* libMBProgressHUD-iOS7.0.a */,
+				0579331A843E4CDC40CB2B1F2C54F9BA /* libMBProgressHUD-iOS8.3.a */,
+				DBC55E1E7EFBFD99CB07832F1949EF86 /* libPods-CustomWebView_Example.a */,
+				AC55D9B0FFC451BAFD7948E4CBA8625E /* libPods-CustomWebView_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0401909B8B7B33976F51F4834E5682EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60C6C4DABA9019C8C45796091AC47F11 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18528D78D61EE4D9790CD84DFAB329F0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15BBA088768213C10F0F9E1AD70EAED0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB1D38C2DD4E4C3CD0963739A3581929 /* Pods-CustomWebView_Example */,
+				CDE1B2F7C7B6FB43F34F14773B598FA7 /* Pods-CustomWebView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		18528D78D61EE4D9790CD84DFAB329F0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E771EDF87B0A185387821080C3DAC64 /* AVFoundation.framework */,
+				D5654E6876A86442951B7BB96111EA8B /* CoreGraphics.framework */,
+				3BCE33B0FB019D73B3C0505F8209812B /* Foundation.framework */,
+				C523EE11C9E3E36329DFD587394FDF9C /* JavaScriptCore.framework */,
+				4F370B4647D92F4F5F0B7B0B92E2A532 /* SystemConfiguration.framework */,
+				C8DB63A574276CFAA7E39E82F712F1B9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2071AB94D3E621D34BDB192D5BA4FF6B /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				FB01E4042BB7BD129B0615D77B1353D3 /* Alipay.h */,
+				AA8E6DB62B8B851D3128C6D1E3EA1F50 /* Alipay.m */,
+			);
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		268F7C8B6528F81E1E7FD522D455B76E /* WeChatShareAndPay */ = {
+			isa = PBXGroup;
+			children = (
+				8CD4BC20754B9BFCD877529404CEF7B2 /* ShareToWeChatfriends.h */,
+				2F06A69692090CA82B962706B190F6BF /* ShareToWeChatfriends.m */,
+				84FDDEDEFAF0B059C1F2BF8917990465 /* ShareToWeiChat.h */,
+				D164C719E7837C5E4EB2E72181F5BEDA /* ShareToWeiChat.m */,
+				44C567B1F8E52077E3093314DEEB5375 /* WechatPay.h */,
+				5E3AF5A264F1D3D37D6A70E74338C8C2 /* WechatPay.m */,
+				7630AC3832F73A797D51C643B802D084 /* WXAPIManager.h */,
+				0E0F1E90C623D8C782A8FA6B58E7B060 /* WXAPIManager.m */,
+			);
+			path = WeChatShareAndPay;
+			sourceTree = "<group>";
+		};
+		4C95C1E8C6E3DAB770A63003DD3BCB41 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C0D657AAF2190FE0525FBB8E5AA5ABDB /* JSExportManager.h */,
+				A7F1AE56683413FE5FF52B3445722645 /* JSExportManager.m */,
+				5447B48EFBE8E83359CEEC2891E280BB /* JSExportManager+JSOpenNewWindow.h */,
+				6A378F234AD4D1E9C87C5060F2DF8175 /* JSExportManager+JSOpenNewWindow.m */,
+				29B09F9C90699736E58E6B5B6A3692F3 /* JSExportManager+JSPayExport.h */,
+				DE89BB9870BC17ACC3DD20370167D7E1 /* JSExportManager+JSPayExport.m */,
+				31D55136E580769BD301F8C3133629AE /* JSExportManager+JSShareExport.h */,
+				AA5B08D2B2B7E9012A246A7923E7EDC0 /* JSExportManager+JSShareExport.m */,
+				560930E161AC9FE6A8CAC27B0ABAF780 /* JSExportsManager+platformAndVersion.h */,
+				434F46D0AB9108D9358394CB6FA6EAE0 /* JSExportsManager+platformAndVersion.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		654E73EF886175C23C140EACFE391BD4 /* iOS-AlipaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				A6086280900476578593279806CD164D /* Core */,
+			);
+			path = "iOS-AlipaySDK";
+			sourceTree = "<group>";
+		};
+		687612F1A201B0DF38BE26848D25FFA6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				17702362D8EC7514874729264F3D0088 /* MBProgressHUD.h */,
+				B4966E5B2A07302C640950FF3E8B125E /* MBProgressHUD.m */,
+				D36DBAA2786477CA3EAC0476E853291D /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		79C0A42D2E53506D271B8E083F8134A9 /* Weixin */ = {
+			isa = PBXGroup;
+			children = (
+				F6A426BB13FF4A69D46E9D5FEAEBC3BB /* WechatAuthSDK.h */,
+				CC3395F7BA40FFB179900A02ED5B1E52 /* WXApi.h */,
+				E3AD877B3A3286AE7956D4B2FA3526D4 /* WXApiObject.h */,
+				E7D1B411F14FBC9E00AEFCE2A8FA8523 /* Frameworks */,
+			);
+			path = Weixin;
+			sourceTree = "<group>";
+		};
+		7B0E6BA7FCC89D1EE6FA51F688CDF7D5 /* CustomWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A5666366AB566939E4B7E2D114B5BB9B /* Assets */,
+			);
+			path = CustomWebView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F97F6857E26B457A420FC5FFA69B8D74 /* Development Pods */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				B2FAD468E76A474465C7439CC6360822 /* Pods */,
+				00E808C4F7839FA36A10CEAB02A6D363 /* Products */,
+				15BBA088768213C10F0F9E1AD70EAED0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88B34815722D7F32E2A604A0C8034C59 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				9A9EF254C12B8BFB0B4AF345EC5DF3E9 /* QQApiInterface.h */,
+				8912456D507911489F42935B1227C02A /* QQApiInterfaceObject.h */,
+				74EF1D895E9B5C47FE65353E9B4E5EFF /* sdkdef.h */,
+				591DE7B3C8AA6FBE76C1FA1EB9436757 /* TencentOAuth.h */,
+				9B23DC097B51FFA58E45D902652D6E50 /* TencentOAuthObject.h */,
+				AFC16268F59C3D036B68867EE309D6E3 /* Frameworks */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		A0885D697377EC04FF663B394AB5D2ED /* TencentOpenApiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				88B34815722D7F32E2A604A0C8034C59 /* Basic */,
+			);
+			path = TencentOpenApiSDK;
+			sourceTree = "<group>";
+		};
+		A21F724222F212DD42D4CEAF730CDF2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B778F00721CE17E4D70E6B2056BFD6D1 /* CustomWebView-iOS7.0.xcconfig */,
+				1794BD39CE301226CC8B290DAF07EB71 /* CustomWebView-iOS7.0-dummy.m */,
+				06EC8BA2D770A221FA1143956E7E62B0 /* CustomWebView-iOS7.0-prefix.pch */,
+				28697896234CFFD5C33B086880340B8C /* CustomWebView-iOS8.3.xcconfig */,
+				1E4C28CE4B18E7CE2E5129EA468931F1 /* CustomWebView-iOS8.3-dummy.m */,
+				2975522CF07D9703F231B1939457807B /* CustomWebView-iOS8.3-prefix.pch */,
+				36D18D5FB4922DE1E09445AD2F11DFC8 /* ResourceBundle-CustomWebView-Info.plist */,
+				618818633145D163B9D0E6C0E0570F54 /* ResourceBundle-CustomWebView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CustomWebView-iOS7.0";
+			sourceTree = "<group>";
+		};
+		A5666366AB566939E4B7E2D114B5BB9B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				51B3C9E24016E2E7BCA71FC1AA920B01 /* pengyouquan.png */,
+				87E9D358E13B96FE003F6139AD854442 /* pengyouquan@2x.png */,
+				967BE9B466A12A866ED3AE837ADBE057 /* qqicon@2x.png */,
+				02620DFBD88F01ECE446A6E17EBEEA7E /* qqZone@2x.png */,
+				F136A1EFF67C524DB0C742167193414E /* weixin.png */,
+				A5B2A193A3B2A3290171CF6D51CA2363 /* weixin@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A6086280900476578593279806CD164D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0401909B8B7B33976F51F4834E5682EF /* Frameworks */,
+				B400CEE0023753C933EC6C54FCAA4AA6 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A8EDB133299EB9CFCECA50B5B639D7A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B0E6BA7FCC89D1EE6FA51F688CDF7D5 /* CustomWebView */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AB1D38C2DD4E4C3CD0963739A3581929 /* Pods-CustomWebView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DC748D5DDD7DC8D704FC7CEDB8C77C00 /* Pods-CustomWebView_Example-acknowledgements.markdown */,
+				A6395D85DD8FCA7305C278BC01AF1249 /* Pods-CustomWebView_Example-acknowledgements.plist */,
+				FF4D9A368BE4603A87F69C76E424C2E7 /* Pods-CustomWebView_Example-dummy.m */,
+				6FD4902200D2301F731DDD200479698A /* Pods-CustomWebView_Example-frameworks.sh */,
+				CB65101026A68BA364D1E81047325681 /* Pods-CustomWebView_Example-resources.sh */,
+				200655F6433721E1AAF2D0E54000F14D /* Pods-CustomWebView_Example.debug.xcconfig */,
+				D0538478B6C7ED713094F602A03275CD /* Pods-CustomWebView_Example.release.xcconfig */,
+			);
+			name = "Pods-CustomWebView_Example";
+			path = "Target Support Files/Pods-CustomWebView_Example";
+			sourceTree = "<group>";
+		};
+		AFC16268F59C3D036B68867EE309D6E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5738C210246B9E2270D99F071D383BFA /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B02E6BEDF11910D72A51E33FBF673ED1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2071AB94D3E621D34BDB192D5BA4FF6B /* Alipay */,
+				ED7C55DDF1F60FF58FD165DC39A9753A /* BaseViewController */,
+				4C95C1E8C6E3DAB770A63003DD3BCB41 /* Manager */,
+				CF2924F00247BBBF71EF1D0B1805DE81 /* qqShare */,
+				E94C21B833212C76BC2A68F454018104 /* View */,
+				268F7C8B6528F81E1E7FD522D455B76E /* WeChatShareAndPay */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0491C0FA5C2F497F84E6FF239A2B908 /* CustomWebView */ = {
+			isa = PBXGroup;
+			children = (
+				C41552F5F69CAFB71C4E6FDB59FABB54 /* CustomWebView */,
+				A8EDB133299EB9CFCECA50B5B639D7A6 /* Resources */,
+				A21F724222F212DD42D4CEAF730CDF2E /* Support Files */,
+			);
+			name = CustomWebView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B2FAD468E76A474465C7439CC6360822 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				654E73EF886175C23C140EACFE391BD4 /* iOS-AlipaySDK */,
+				687612F1A201B0DF38BE26848D25FFA6 /* MBProgressHUD */,
+				A0885D697377EC04FF663B394AB5D2ED /* TencentOpenApiSDK */,
+				79C0A42D2E53506D271B8E083F8134A9 /* Weixin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B400CEE0023753C933EC6C54FCAA4AA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				735127F130C43468FB5A0A7577B31456 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C41552F5F69CAFB71C4E6FDB59FABB54 /* CustomWebView */ = {
+			isa = PBXGroup;
+			children = (
+				B02E6BEDF11910D72A51E33FBF673ED1 /* Classes */,
+			);
+			path = CustomWebView;
+			sourceTree = "<group>";
+		};
+		CDE1B2F7C7B6FB43F34F14773B598FA7 /* Pods-CustomWebView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99F67F5A9712B145B540ED6F98249A55 /* Pods-CustomWebView_Tests-acknowledgements.markdown */,
+				E436C67487484583C2AEC6F9CBBCE962 /* Pods-CustomWebView_Tests-acknowledgements.plist */,
+				B124C59EF77346DE29E95F279DDC48AF /* Pods-CustomWebView_Tests-dummy.m */,
+				C654F2DC682C996E000D2EF3C13A1F52 /* Pods-CustomWebView_Tests-frameworks.sh */,
+				E449B0044ADCAE8ED99142F9CCD8A96A /* Pods-CustomWebView_Tests-resources.sh */,
+				C50E37267D17FDF34F27BA8A65F9126B /* Pods-CustomWebView_Tests.debug.xcconfig */,
+				C1CFFD1DBC51D41CFC2AB502CCCF6AF2 /* Pods-CustomWebView_Tests.release.xcconfig */,
+			);
+			name = "Pods-CustomWebView_Tests";
+			path = "Target Support Files/Pods-CustomWebView_Tests";
+			sourceTree = "<group>";
+		};
+		CF2924F00247BBBF71EF1D0B1805DE81 /* qqShare */ = {
+			isa = PBXGroup;
+			children = (
+				11629FE43DA33E70D70A0C910BF6920F /* ShareToQQ.h */,
+				8DE360F15D7BB66A56978E24C352209F /* ShareToQQ.m */,
+				B89DBEE14818F173E8614F04265DDCD1 /* ShareToQQZone.h */,
+				AB216607640779E19BEC29C70F6C5CAA /* ShareToQQZone.m */,
+			);
+			path = qqShare;
+			sourceTree = "<group>";
+		};
+		D36DBAA2786477CA3EAC0476E853291D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7474E19BC051B71C56F1DEEE387EA541 /* MBProgressHUD-iOS7.0.xcconfig */,
+				583E80F6716B513D68A83CABFF92C747 /* MBProgressHUD-iOS7.0-dummy.m */,
+				166D7594C85E04A94A154B0AAAF00638 /* MBProgressHUD-iOS7.0-prefix.pch */,
+				90EED78F8078AA74616E904400853A7B /* MBProgressHUD-iOS8.3.xcconfig */,
+				A01BFBB64DFCF486775298B004A23E78 /* MBProgressHUD-iOS8.3-dummy.m */,
+				8AD6791019C37625526747FA5D9FB0F1 /* MBProgressHUD-iOS8.3-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD-iOS7.0";
+			sourceTree = "<group>";
+		};
+		E7D1B411F14FBC9E00AEFCE2A8FA8523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CBC99805F4381AE84BE16BBF076B0AB /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E94C21B833212C76BC2A68F454018104 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6FD461237DF629D4E870B8791E76F9D4 /* XTWebView.h */,
+				79525B3172CA17EA6A8C448A515E1197 /* XTWebView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED7C55DDF1F60FF58FD165DC39A9753A /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CED67530DAE7966919256FDB506ECB55 /* NextViewController.h */,
+				2D95DDF08DE810522462A76E22C93228 /* NextViewController.m */,
+				560A0A261FA8CCCC76E0D43E6F7CB39B /* XTWebViewController.h */,
+				A5C7AE4371ACDB9FF254D7BB3F59C8D8 /* XTWebViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		F97F6857E26B457A420FC5FFA69B8D74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0491C0FA5C2F497F84E6FF239A2B908 /* CustomWebView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		409A81C1C53D9FE5D33FBBE4658A1391 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71DEEA5AD93AE74F7073D1F545A639C /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D549828DD22121DF89850922AC5F9F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6695E9E161B5E608547022B19658B7 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F8536C47BB6F8C95C48F76BC0FCDF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1772D4A515FDFBABB80F406DDB19667 /* Alipay.h in Headers */,
+				E5DF7CC0988A8E56665FE069101DC9A0 /* JSExportManager+JSOpenNewWindow.h in Headers */,
+				41FF1D80F03AA1042DE15C02F0E32F6A /* JSExportManager+JSPayExport.h in Headers */,
+				6DCC3F8D27EFF47B897A38229E5DBE3C /* JSExportManager+JSShareExport.h in Headers */,
+				7E3A3A57645FB40729C449D028EBBA5A /* JSExportManager.h in Headers */,
+				8BBB0BD92737410E5E955CC2396E3159 /* JSExportsManager+platformAndVersion.h in Headers */,
+				5247903CF98C3C2FF37960B8D3A56BC0 /* NextViewController.h in Headers */,
+				AE376819100EC626F1DF090474C7665B /* ShareToQQ.h in Headers */,
+				CE84D7987DADD64AAA16E9E9742A2FFB /* ShareToQQZone.h in Headers */,
+				282C3F2C969F9C04F53F5263BAA0C596 /* ShareToWeChatfriends.h in Headers */,
+				C99B7FCA7CFC6F7A836B19E59413FB38 /* ShareToWeiChat.h in Headers */,
+				5898BF3FE92CD4375712B087BF45CD00 /* WechatPay.h in Headers */,
+				B2F68474FE62796730E7DAF8D5124B7E /* WXAPIManager.h in Headers */,
+				2B9EF4EDB2E9370CF9D615C42D1CC219 /* XTWebView.h in Headers */,
+				60E4A991F11DE50A6570BCEB304E0A38 /* XTWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF06D74FDB85BBFCBA71360AA23409BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3AC040EFE7D026BB9E63E483E5A371C /* Alipay.h in Headers */,
+				9354327944EF969291E7D69E425B863F /* JSExportManager+JSOpenNewWindow.h in Headers */,
+				7418933A9FB7C2DFC3744106A39C3464 /* JSExportManager+JSPayExport.h in Headers */,
+				07CFC8D70D8D2716C4F729830C005D20 /* JSExportManager+JSShareExport.h in Headers */,
+				EF4018D8124DBD33F8A30CA4C64EC8BA /* JSExportManager.h in Headers */,
+				D2CB651520F8A5E50623D05F04846545 /* JSExportsManager+platformAndVersion.h in Headers */,
+				C8ACC311F9A24C9B5F2C8AC5D2725F13 /* NextViewController.h in Headers */,
+				3A9BA0D2F664F378B1791158AD29F6B9 /* ShareToQQ.h in Headers */,
+				2F0E9265CF16CD2456477477F4E3103B /* ShareToQQZone.h in Headers */,
+				BA864393615A0D98FABA453575E4BB3A /* ShareToWeChatfriends.h in Headers */,
+				557AB058D3396736587E08EA9FCD1FDB /* ShareToWeiChat.h in Headers */,
+				9DB9C07305A77D83DF2F44735F8F33AB /* WechatPay.h in Headers */,
+				06C59C194E78E7DF70B3D8C5F8E114F4 /* WXAPIManager.h in Headers */,
+				3E2E96C0BCEE67CAD68689FD3FAEA6DB /* XTWebView.h in Headers */,
+				C90C724F6C8D176AE682A1C58D432A45 /* XTWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		047EA42473934920BCCF2A1463BC3674 /* Pods-CustomWebView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77C6E4D7AE98672B528FA8BC18C02C06 /* Build configuration list for PBXNativeTarget "Pods-CustomWebView_Example" */;
+			buildPhases = (
+				6A6B1482BB827A6C5AA776F042C771E5 /* Sources */,
+				9C2A9BD2D21B53FA2BA80547703B35BC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28DD725EEDB6C97AB38DB84E380451A6 /* PBXTargetDependency */,
+				1BF7CA1207437B7951DDF70E422DC886 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomWebView_Example";
+			productName = "Pods-CustomWebView_Example";
+			productReference = DBC55E1E7EFBFD99CB07832F1949EF86 /* libPods-CustomWebView_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		04AEAD70057C1A9028B84D3803D446A6 /* Pods-CustomWebView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030AD794B248AF555B90FC130BEDF89A /* Build configuration list for PBXNativeTarget "Pods-CustomWebView_Tests" */;
+			buildPhases = (
+				AB1ED97D0BDF6BA780755432BBF48825 /* Sources */,
+				EFB148D036A6A28154AA8E4BB96EF6CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D935797B5C3AF6DC03FFFDCEC6E28A9 /* PBXTargetDependency */,
+				BE3ED05548FD825A6A7E123AAEA52C16 /* PBXTargetDependency */,
+			);
+			name = "Pods-CustomWebView_Tests";
+			productName = "Pods-CustomWebView_Tests";
+			productReference = AC55D9B0FFC451BAFD7948E4CBA8625E /* libPods-CustomWebView_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		07D1F430BAC15DE2649460BAA7A93F98 /* CustomWebView-iOS7.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364963644B6EBB9669190581F90D9BA7 /* Build configuration list for PBXNativeTarget "CustomWebView-iOS7.0" */;
+			buildPhases = (
+				613AC3A2B8C6C25868FC5F16134F8348 /* Sources */,
+				1825CD99B2248E0C4A9198FD3ECA24C7 /* Frameworks */,
+				DF06D74FDB85BBFCBA71360AA23409BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0A99C2BA15833553EF26751A6E46905 /* PBXTargetDependency */,
+				221A47696DE0FC6E63015BEDAD415B37 /* PBXTargetDependency */,
+			);
+			name = "CustomWebView-iOS7.0";
+			productName = "CustomWebView-iOS7.0";
+			productReference = 246287387D3FF66D9C8C786A53DC2613 /* libCustomWebView-iOS7.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A72FC2EDBE0B0BB985D6AE66E1CF6CF /* MBProgressHUD-iOS7.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F817F26100AD04B93BA709599ED4D61 /* Build configuration list for PBXNativeTarget "MBProgressHUD-iOS7.0" */;
+			buildPhases = (
+				DB928ADEB5366D726A2DB18C916BC2DD /* Sources */,
+				6B7F89615E34950E63210E5C2E30266F /* Frameworks */,
+				7D549828DD22121DF89850922AC5F9F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBProgressHUD-iOS7.0";
+			productName = "MBProgressHUD-iOS7.0";
+			productReference = 49A57F97E513FB9566F53DA28E3F6999 /* libMBProgressHUD-iOS7.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		71694AAE3E18E5EA8F740A59B1CAAF03 /* CustomWebView-iOS7.0-CustomWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9FCAD13B698B6986F88C85DDF139F4 /* Build configuration list for PBXNativeTarget "CustomWebView-iOS7.0-CustomWebView" */;
+			buildPhases = (
+				9655C0177EB46D50AFB84022294BD972 /* Sources */,
+				AF6C9DB1EFB62DA4B3CE1B47DFBE3690 /* Frameworks */,
+				DF75C66590D89C12C8C4150110855CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomWebView-iOS7.0-CustomWebView";
+			productName = "CustomWebView-iOS7.0-CustomWebView";
+			productReference = F1303360C82897E62A832377FA655996 /* CustomWebView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		83FB33F052194CA09A573C5F7D977DF1 /* MBProgressHUD-iOS8.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7571B403D816A49EBE8B1026B739EF0 /* Build configuration list for PBXNativeTarget "MBProgressHUD-iOS8.3" */;
+			buildPhases = (
+				872AE3E7BBFDD0A05A1AACF5015A74C7 /* Sources */,
+				455D932E8BE73387C4B018C19B209109 /* Frameworks */,
+				409A81C1C53D9FE5D33FBBE4658A1391 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBProgressHUD-iOS8.3";
+			productName = "MBProgressHUD-iOS8.3";
+			productReference = 0579331A843E4CDC40CB2B1F2C54F9BA /* libMBProgressHUD-iOS8.3.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D3F7BAF5119B9BBFE7A5C004A3D7D324 /* CustomWebView-iOS8.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572D831DF0F01B4872653EAD99F98F69 /* Build configuration list for PBXNativeTarget "CustomWebView-iOS8.3" */;
+			buildPhases = (
+				8EB448A87EF5755F7FF4E8A030EFAE1A /* Sources */,
+				C599747AC15D0882A19B8230C5723C13 /* Frameworks */,
+				B8F8536C47BB6F8C95C48F76BC0FCDF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68FE7E535F268A2BA029CF19C5D65892 /* PBXTargetDependency */,
+				44A7B84B48B2D3AD3862289FCE97BC8C /* PBXTargetDependency */,
+			);
+			name = "CustomWebView-iOS8.3";
+			productName = "CustomWebView-iOS8.3";
+			productReference = F8FADDF7BD33B4949EB66E8CE458AFE0 /* libCustomWebView-iOS8.3.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FEE53259E2B94890799872446AB7760F /* CustomWebView-iOS8.3-CustomWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 686E8D82DDC089CE26C5D37D3840B5AE /* Build configuration list for PBXNativeTarget "CustomWebView-iOS8.3-CustomWebView" */;
+			buildPhases = (
+				DFE85C8E80DCAD8C6B9F458EFEA8E862 /* Sources */,
+				FA76053A596367AD74373118206B531A /* Frameworks */,
+				0673D05564B2D877829D2F6FEC463ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomWebView-iOS8.3-CustomWebView";
+			productName = "CustomWebView-iOS8.3-CustomWebView";
+			productReference = F1303360C82897E62A832377FA655996 /* CustomWebView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00E808C4F7839FA36A10CEAB02A6D363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D1F430BAC15DE2649460BAA7A93F98 /* CustomWebView-iOS7.0 */,
+				71694AAE3E18E5EA8F740A59B1CAAF03 /* CustomWebView-iOS7.0-CustomWebView */,
+				D3F7BAF5119B9BBFE7A5C004A3D7D324 /* CustomWebView-iOS8.3 */,
+				FEE53259E2B94890799872446AB7760F /* CustomWebView-iOS8.3-CustomWebView */,
+				3A72FC2EDBE0B0BB985D6AE66E1CF6CF /* MBProgressHUD-iOS7.0 */,
+				83FB33F052194CA09A573C5F7D977DF1 /* MBProgressHUD-iOS8.3 */,
+				047EA42473934920BCCF2A1463BC3674 /* Pods-CustomWebView_Example */,
+				04AEAD70057C1A9028B84D3803D446A6 /* Pods-CustomWebView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0673D05564B2D877829D2F6FEC463ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61FB04621513ACEB01A45CB25E9D23E /* pengyouquan.png in Resources */,
+				A5F16E28F2F0573D817D423297FB6E26 /* pengyouquan@2x.png in Resources */,
+				C8C1D1D493D8BB1B9D245951C1FE989E /* qqicon@2x.png in Resources */,
+				F415169A6001E5574130471517ADBEB5 /* qqZone@2x.png in Resources */,
+				C3A621A870D3167613E1B6465F0A1CA0 /* weixin.png in Resources */,
+				BA1388B031AA4A2133FD0B87CF2619C2 /* weixin@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF75C66590D89C12C8C4150110855CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B0A6B4C426FCD59C15F1212D5B9B79 /* pengyouquan.png in Resources */,
+				D0D27A93F9221F7BAFC0D1FA596C2261 /* pengyouquan@2x.png in Resources */,
+				DEEB42A760AFCDDA3F3723C2A847A5A5 /* qqicon@2x.png in Resources */,
+				BBA3E506F8C0B5E1FDD3D8C443F2280A /* qqZone@2x.png in Resources */,
+				527E9958C0D5CF46EF733E295BB31E34 /* weixin.png in Resources */,
+				24DBB772B0C6DB7749196106A4773010 /* weixin@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613AC3A2B8C6C25868FC5F16134F8348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1178B3DD7E690C543526FCD2DF9967 /* Alipay.m in Sources */,
+				A3C8026ED088499531FDB0AFB9D44F71 /* CustomWebView-iOS7.0-dummy.m in Sources */,
+				CE232C804F10E3E47A736A09B62D923A /* JSExportManager+JSOpenNewWindow.m in Sources */,
+				49B50B0E324D9C13B8B738BE4C8CBE93 /* JSExportManager+JSPayExport.m in Sources */,
+				E0F484A9FE1E7AFAAB1942AEA880F25A /* JSExportManager+JSShareExport.m in Sources */,
+				F6E3F8433A7ADBC0EE12EB7C0F358CA1 /* JSExportManager.m in Sources */,
+				9480B7119789CD2E5E833C6BB08C6BD9 /* JSExportsManager+platformAndVersion.m in Sources */,
+				3C7D6DFD4CC9735F78E5524F64C518CE /* NextViewController.m in Sources */,
+				55164F99B2562307BD9B0E009CBC5B41 /* ShareToQQ.m in Sources */,
+				9EC7C04284DCE8C927D45DCB7260AEBB /* ShareToQQZone.m in Sources */,
+				3DBEAAEAFD9D3BAF9766518B40E24618 /* ShareToWeChatfriends.m in Sources */,
+				632CF11750773CA0534A002F23D2BD58 /* ShareToWeiChat.m in Sources */,
+				2FD9DCBC5F974E1C7DDD7FBF6FEDCCA0 /* WechatPay.m in Sources */,
+				FA596C923028394D955CB5A7CE6E295F /* WXAPIManager.m in Sources */,
+				8B986A44504C90EEDA1B9AB82A652314 /* XTWebView.m in Sources */,
+				ACB24934FD11BC9D7BEE296A97A39D34 /* XTWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6B1482BB827A6C5AA776F042C771E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855929C9134B0DCA137D6E4B7AFFAA9 /* Pods-CustomWebView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		872AE3E7BBFDD0A05A1AACF5015A74C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ACB66C7FC479B11D8FB1F3A49CF89E /* MBProgressHUD-iOS8.3-dummy.m in Sources */,
+				C861BAAB3A2AE623F3968383A94A7508 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB448A87EF5755F7FF4E8A030EFAE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABE28623AE7180E1101BB553FE7621A /* Alipay.m in Sources */,
+				1A6487ED5B2BE813D47D0B0DABB6E3CB /* CustomWebView-iOS8.3-dummy.m in Sources */,
+				FB18DA19D11FDEACE173ACD328E72969 /* JSExportManager+JSOpenNewWindow.m in Sources */,
+				A53D89C638468C2917DB717E34509D86 /* JSExportManager+JSPayExport.m in Sources */,
+				3E4B714F726E24F8D40D3E2EF9B87DA6 /* JSExportManager+JSShareExport.m in Sources */,
+				6D9DABE9503912CDA712813DFDE9E14F /* JSExportManager.m in Sources */,
+				EFC1F8C46382A04992087D54030CC449 /* JSExportsManager+platformAndVersion.m in Sources */,
+				44C7787100D5788D6D22F47DE753FD99 /* NextViewController.m in Sources */,
+				C222F70F2CFC530DCF299721B204C736 /* ShareToQQ.m in Sources */,
+				D3F34ACE40E67CFF8595FF108BB85262 /* ShareToQQZone.m in Sources */,
+				07F4C7BB7414CA245CC87734A8A5DBF6 /* ShareToWeChatfriends.m in Sources */,
+				057E2B2158993093BE500327C1AE769D /* ShareToWeiChat.m in Sources */,
+				7A0B8E92B308F302198DD5A296725EF2 /* WechatPay.m in Sources */,
+				72FBE22545DF3E05A90472E285BEF3F1 /* WXAPIManager.m in Sources */,
+				BB989B21EA98517429EB2C5194E0EE3C /* XTWebView.m in Sources */,
+				22760320220260F244536396DDD2E021 /* XTWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9655C0177EB46D50AFB84022294BD972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1ED97D0BDF6BA780755432BBF48825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166A356472501862806922A4783370F6 /* Pods-CustomWebView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB928ADEB5366D726A2DB18C916BC2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9861F7C9703C7F8C6A808E2F006239 /* MBProgressHUD-iOS7.0-dummy.m in Sources */,
+				E19EDAC557BDCA9492E318B91F08774E /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE85C8E80DCAD8C6B9F458EFEA8E862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D935797B5C3AF6DC03FFFDCEC6E28A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CustomWebView-iOS8.3";
+			target = D3F7BAF5119B9BBFE7A5C004A3D7D324 /* CustomWebView-iOS8.3 */;
+			targetProxy = A5B37A55F32BFAF5461ED123AC18A56D /* PBXContainerItemProxy */;
+		};
+		1BF7CA1207437B7951DDF70E422DC886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBProgressHUD-iOS7.0";
+			target = 3A72FC2EDBE0B0BB985D6AE66E1CF6CF /* MBProgressHUD-iOS7.0 */;
+			targetProxy = FD986D30441300DCF62ED304961D044A /* PBXContainerItemProxy */;
+		};
+		221A47696DE0FC6E63015BEDAD415B37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBProgressHUD-iOS7.0";
+			target = 3A72FC2EDBE0B0BB985D6AE66E1CF6CF /* MBProgressHUD-iOS7.0 */;
+			targetProxy = 7DE001C27709F27209FCB072CFA41F9B /* PBXContainerItemProxy */;
+		};
+		28DD725EEDB6C97AB38DB84E380451A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CustomWebView-iOS7.0";
+			target = 07D1F430BAC15DE2649460BAA7A93F98 /* CustomWebView-iOS7.0 */;
+			targetProxy = B7F2390EC08F990518993477D8C43DD5 /* PBXContainerItemProxy */;
+		};
+		44A7B84B48B2D3AD3862289FCE97BC8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBProgressHUD-iOS7.0";
+			target = 3A72FC2EDBE0B0BB985D6AE66E1CF6CF /* MBProgressHUD-iOS7.0 */;
+			targetProxy = EF9135A66970B119EBEB75B98F6A16AF /* PBXContainerItemProxy */;
+		};
+		68FE7E535F268A2BA029CF19C5D65892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CustomWebView-iOS8.3-CustomWebView";
+			target = FEE53259E2B94890799872446AB7760F /* CustomWebView-iOS8.3-CustomWebView */;
+			targetProxy = AC64F5AF85D34A7BD4F957D08F6C0C7F /* PBXContainerItemProxy */;
+		};
+		A0A99C2BA15833553EF26751A6E46905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CustomWebView-iOS7.0-CustomWebView";
+			target = 71694AAE3E18E5EA8F740A59B1CAAF03 /* CustomWebView-iOS7.0-CustomWebView */;
+			targetProxy = 7178B212EFBBB016943EE981E992F8FF /* PBXContainerItemProxy */;
+		};
+		BE3ED05548FD825A6A7E123AAEA52C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBProgressHUD-iOS8.3";
+			target = 83FB33F052194CA09A573C5F7D977DF1 /* MBProgressHUD-iOS8.3 */;
+			targetProxy = D8A0810020FC062D06E7888637BC433D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07934C2286637B0564DC1DB6E2AB55FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50E37267D17FDF34F27BA8A65F9126B /* Pods-CustomWebView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2449C867D4C8690B0A527F5D2C9F4CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EED78F8078AA74616E904400853A7B /* MBProgressHUD-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-iOS8.3/MBProgressHUD-iOS8.3-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		544EDB81297F85DD793DE990B836FA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28697896234CFFD5C33B086880340B8C /* CustomWebView-iOS8.3.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CustomWebView-iOS8.3";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CustomWebView-iOS8.3/ResourceBundle-CustomWebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = CustomWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		650B98148C89665003CB268CB9CA47E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28697896234CFFD5C33B086880340B8C /* CustomWebView-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CustomWebView-iOS8.3/CustomWebView-iOS8.3-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		77DFBBBF78C0FB14CC2AFE23D3CBF2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200655F6433721E1AAF2D0E54000F14D /* Pods-CustomWebView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78DCF72A305BF488DCED63ED6FB76D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0538478B6C7ED713094F602A03275CD /* Pods-CustomWebView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		85047FE340B1368BCC86AFE586D3DA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EED78F8078AA74616E904400853A7B /* MBProgressHUD-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-iOS8.3/MBProgressHUD-iOS8.3-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		98BDCF0192566699F37A144DF75385F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28697896234CFFD5C33B086880340B8C /* CustomWebView-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CustomWebView-iOS8.3/CustomWebView-iOS8.3-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A24092C6333433CB3E46F144339C5861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7474E19BC051B71C56F1DEEE387EA541 /* MBProgressHUD-iOS7.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-iOS7.0/MBProgressHUD-iOS7.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B2FFB87F9405E4C493B30BD7BBA7982E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7474E19BC051B71C56F1DEEE387EA541 /* MBProgressHUD-iOS7.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD-iOS7.0/MBProgressHUD-iOS7.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B9C49BA1A3009B385940E0D2FC01749E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28697896234CFFD5C33B086880340B8C /* CustomWebView-iOS8.3.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CustomWebView-iOS8.3";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CustomWebView-iOS8.3/ResourceBundle-CustomWebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = CustomWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C2A3B920BA4111C56AF17AF2292303FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B778F00721CE17E4D70E6B2056BFD6D1 /* CustomWebView-iOS7.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CustomWebView-iOS7.0/CustomWebView-iOS7.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E3E94A04940157AD0619A3BD77CE3CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B778F00721CE17E4D70E6B2056BFD6D1 /* CustomWebView-iOS7.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CustomWebView-iOS7.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CustomWebView-iOS7.0/ResourceBundle-CustomWebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = CustomWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBFE5F1D78EE43D57B98CC37BDA317E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B778F00721CE17E4D70E6B2056BFD6D1 /* CustomWebView-iOS7.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CustomWebView-iOS7.0/CustomWebView-iOS7.0-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC07252FE9B9FB4542A758F1F73F42D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CFFD1DBC51D41CFC2AB502CCCF6AF2 /* Pods-CustomWebView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD1D62DD81717F558B0F9A2BEF858F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B778F00721CE17E4D70E6B2056BFD6D1 /* CustomWebView-iOS7.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CustomWebView-iOS7.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/CustomWebView-iOS7.0/ResourceBundle-CustomWebView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = CustomWebView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030AD794B248AF555B90FC130BEDF89A /* Build configuration list for PBXNativeTarget "Pods-CustomWebView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07934C2286637B0564DC1DB6E2AB55FD /* Debug */,
+				FC07252FE9B9FB4542A758F1F73F42D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B9FCAD13B698B6986F88C85DDF139F4 /* Build configuration list for PBXNativeTarget "CustomWebView-iOS7.0-CustomWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E94A04940157AD0619A3BD77CE3CF8 /* Debug */,
+				FD1D62DD81717F558B0F9A2BEF858F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F817F26100AD04B93BA709599ED4D61 /* Build configuration list for PBXNativeTarget "MBProgressHUD-iOS7.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FFB87F9405E4C493B30BD7BBA7982E /* Debug */,
+				A24092C6333433CB3E46F144339C5861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364963644B6EBB9669190581F90D9BA7 /* Build configuration list for PBXNativeTarget "CustomWebView-iOS7.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFE5F1D78EE43D57B98CC37BDA317E7 /* Debug */,
+				C2A3B920BA4111C56AF17AF2292303FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572D831DF0F01B4872653EAD99F98F69 /* Build configuration list for PBXNativeTarget "CustomWebView-iOS8.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98BDCF0192566699F37A144DF75385F9 /* Debug */,
+				650B98148C89665003CB268CB9CA47E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		686E8D82DDC089CE26C5D37D3840B5AE /* Build configuration list for PBXNativeTarget "CustomWebView-iOS8.3-CustomWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C49BA1A3009B385940E0D2FC01749E /* Debug */,
+				544EDB81297F85DD793DE990B836FA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77C6E4D7AE98672B528FA8BC18C02C06 /* Build configuration list for PBXNativeTarget "Pods-CustomWebView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77DFBBBF78C0FB14CC2AFE23D3CBF2AB /* Debug */,
+				78DCF72A305BF488DCED63ED6FB76D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7571B403D816A49EBE8B1026B739EF0 /* Build configuration list for PBXNativeTarget "MBProgressHUD-iOS8.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2449C867D4C8690B0A527F5D2C9F4CEA /* Debug */,
+				85047FE340B1368BCC86AFE586D3DA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

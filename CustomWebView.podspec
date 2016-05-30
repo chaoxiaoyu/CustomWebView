@@ -21,11 +21,11 @@ s.description      = <<-DESC
 A custom webview for pay and share with JS
 DESC
 
-s.homepage         = 'https://github.com/chaoxiaoyu/MyXTWebView'
+s.homepage         = 'https://github.com/chaoxiaoyu/CustomWebView'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'cxy' => '2445879918@qq.com' }
-s.source           = { :git => 'https://github.com/chaoxiaoyu/MyXTWebView.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/chaoxiaoyu/CustomWebView.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '7.0'
@@ -34,7 +34,7 @@ s.requires_arc = true
 s.source_files = 'CustomWebView/Classes/**/*'
 
 s.resource_bundles = {
-'XTWebView' => ['CustomWebView/Assets/*.png']
+'CustomWebView' => ['CustomWebView/Assets/*.png']
 }
 
 # s.public_header_files = 'CustomWebView/Classes/**/*.h'
